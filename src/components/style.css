@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 10px;
+}
+
+html {
+    background-color: rgb(3, 3, 81);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+
+}
+
+.heading {
+    color: white;
+    font-size: 50px;
+    margin-bottom: 70px;
+}
+
+.top-container {
+    margin-bottom: 50px;
+}
+
+.input-task {
+    height: 40px;
+    padding: 10px;
+    font-size: 2rem;
+}
+
+.drop-down-list {
+    height: 40px;
+    margin-top: 1px;
+    padding: 5px;
+    font-size: 2rem;
+
+}
+
+.submit {
+    height: 38px;
+    width: 38px;
+    font-size: 2rem;
+}
+
+.page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.navbar {
+    margin: 30px;
+    color: white;
+    text-align: center;
+}
+
+.btn-grp {
+    display: flex;
+}
+
+.btn {
+    background-color: rgb(59, 10, 157);
+    font-size: 3rem;
+    cursor: pointer;
+    padding: 30px;
+}
+
+.tasks {
+    color: white;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    width: 75rem;
+}
+
+.task {
+    display: flex;
+    flex-direction: row;
+    font-size: 3rem;
+}
+
+.btn-mark {
+    height: 40px;
+    width: 40px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.tick {
+    background-color: greenyellow;
+
+}
+
+.cross {
+    background-color: red;
+}
+
+.edit {
+    background-color: yellow;
+}
